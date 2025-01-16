@@ -1,0 +1,20 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/navbar.astro';
+import Hero from "../components/hero.astro";
+import TrustedCompanies from '../components/TrustedCompanies.astro';
+import WorkspaceSection from '../components/WorkspaceSection.astro';
+import Steps from '../components/steps.astro';
+import Pricing from '../components/pricing.astro';
+---
+
+<Layout title="SuperMetrics">
+	<div class=" bg-gradient-to-b from-[rgba(220,239,255,1)] via-[rgba(247,250,252,1)] to-[rgba(255,255,255,1)]">
+		<Navbar />
+		<Hero />
+	</div>
+	<TrustedCompanies />
+	<WorkspaceSection />
+	<Steps />
+	<Pricing />
+</Layout>

@@ -1,0 +1,31 @@
+---
+import heroright from '../assets/heroright.png';
+import heroleft from '../assets/logo-google-workspace.svg';
+---
+
+<div class="flex justify-center items-center h-[80vh]">
+    <div class="flex-1 mx-20">
+        <h1 class="text-6xl font-semibold text-[#0D314F] w-10/12 leading-snug">
+            Sync Your Marketing Data to
+            <img src={heroleft.src} alt="heroleft" class="inline-block w-[63%] align-middle" />
+        </h1>
+        <p class="w-9/12 my-3 text-base text-[#697586]">With the SuperMetrics Workspace add-on, access all your connected marketing and sales accounts directly in Google Sheets, Slides, and everywhere else.</p>
+        <div class="my-5 flex gap-4">
+            <button
+            type="button"
+            class="text-white shadow-md bg-[#1B91F0] font-medium rounded-xl text-sm px-8 py-3 flex items-center gap-3"
+            >Install Now
+            <svg class="mt-px" width="1.2em" height="1.2em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6H6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6m-7 1l9-9m-5 0h5v5"/></svg>
+        </button>
+            <button
+            type="button"
+            class="text-black border border-[#1d253635] font-medium rounded-xl text-sm px-8 py-3"
+            >Learn More</button
+            >
+        </div>
+    </div>
+    <div class="relative">
+        <img src={heroright.src} alt="heroright" class="w-10/12 relative z-0" />
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-white z-10"></div>
+    </div>
+</div>

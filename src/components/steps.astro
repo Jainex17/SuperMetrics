@@ -1,0 +1,150 @@
+---
+import step1 from "../assets/step1.png";
+import step2 from "../assets/step2.png";
+import step3 from "../assets/step3.png";
+import ConnectorLine from "../assets/Connector-line.svg";
+import ConnectorLineRL from "../assets/Connector-line-rl.svg";
+import stepsbottom from "../assets/stepsbottom.png";
+---
+
+<div class="w-full flex flex-col px-10 pt-20 items-center justify-center">
+  <div class="flex flex-col gap-5 justify-center items-center">
+    <button
+      class="border-2 border-[#CFD5DE] py-2 px-3 rounded-xl font-semibold text-xs text-[#697586] stepbtn"
+    >
+      How it Works
+    </button>
+
+    <h2 class="text-4xl font-semibold text-[#212F40]">
+      Get Started in 3 Simple Steps
+    </h2>
+  </div>
+
+  <div class="flex gap-20 mt-20">
+    <div class="flex-1">
+      <img src={step1.src} alt="step1" class="object-contain" />
+    </div>
+    <div class="flex-1 self-end mb-14">
+      <svg width="106" height="71" viewBox="0 0 106 71" fill="none">
+        <path
+          d="M25.2 70.504C9.972 70.504 0.948 57.25 0.948 35.724C0.948 14.104 9.972 0.755999 25.2 0.755999C40.428 0.755999 49.452 14.104 49.452 35.724C49.452 57.25 40.428 70.504 25.2 70.504ZM25.2 57.344C30.746 57.344 33.942 50.67 33.942 35.724C33.942 20.684 30.746 13.916 25.2 13.916C19.654 13.916 16.458 20.684 16.458 35.724C16.458 50.67 19.654 57.344 25.2 57.344ZM57.4993 69V55.558H76.0173V27.076H60.0373V14.574H66.8053C74.5133 14.574 77.8033 11.284 77.8033 2.26H91.1513V55.558H105.627V69H57.4993Z"
+          fill="url(#paint0_linear_1_2053)"
+          fill-opacity="0.5"></path>
+        <defs>
+          <linearGradient
+            id="paint0_linear_1_2053"
+            x1="202"
+            y1="-25"
+            x2="202"
+            y2="74.7604"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#CFD5DE"></stop>
+            <stop offset="1" stop-color="#CFD5DE" stop-opacity="0"></stop>
+          </linearGradient>
+        </defs>
+      </svg>
+
+      <h4 class="text-2xl my-4 font-semibold w-3/4">
+        Install SuperMetrics and create an account
+      </h4>
+      <p class="w-8/12">
+        Installation is quick, and creating a SuperMetrics account is completely
+        free.
+      </p>
+    </div>
+  </div>
+  <img src={ConnectorLine.src} alt="Connector Line" class="object-contain" />
+  <div class="flex gap-20">
+    <div class="flex-1 self-end mb-14">
+      <svg
+        width="106"
+        height="71"
+        viewBox="0 0 106 71"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M25.2 70.504C9.972 70.504 0.948 57.25 0.948 35.724C0.948 14.104 9.972 0.755999 25.2 0.755999C40.428 0.755999 49.452 14.104 49.452 35.724C49.452 57.25 40.428 70.504 25.2 70.504ZM25.2 57.344C30.746 57.344 33.942 50.67 33.942 35.724C33.942 20.684 30.746 13.916 25.2 13.916C19.654 13.916 16.458 20.684 16.458 35.724C16.458 50.67 19.654 57.344 25.2 57.344ZM57.3113 69C57.3113 52.08 62.6693 42.492 80.9053 33.186C86.9213 30.084 90.3053 27.546 90.3053 21.624C90.3053 16.83 87.6733 13.916 82.5973 13.916C76.7693 13.916 74.2313 17.488 73.1973 23.974L57.4993 23.128C58.8153 9.31 67.2753 0.755999 82.9733 0.755999C98.2953 0.755999 105.815 8.746 105.815 20.684C105.815 31.588 101.209 36.946 88.3313 43.996C77.8973 49.73 74.7953 52.738 74.4193 55.558H105.815V69H57.3113Z"
+          fill="url(#paint0_linear_1_3226)"
+          fill-opacity="0.5"></path>
+        <defs>
+          <linearGradient
+            id="paint0_linear_1_3226"
+            x1="202"
+            y1="-25"
+            x2="202"
+            y2="74.7604"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#CFD5DE"></stop>
+            <stop offset="1" stop-color="#CFD5DE" stop-opacity="0"></stop>
+          </linearGradient>
+        </defs>
+      </svg>
+
+      <h4 class="text-2xl my-4 font-semibold w-3/4">
+        Connect your marketing accounts to SuperMetrics
+      </h4>
+      <p class="w-8/12">
+        Link your accounts to track campaigns and manage channels from one
+        dashboard.
+      </p>
+    </div>
+    <div class="flex-1">
+      <img src={step2.src} alt="step1" class="object-contain" />
+    </div>
+  </div>
+  <img
+    src={ConnectorLineRL.src}
+    alt="Connector Line RL"
+    class="object-contain"
+  />
+  <div class="flex gap-20">
+    <div class="flex-1">
+      <img src={step3.src} alt="step3" class="object-contain" />
+    </div>
+    <div class="flex-1 self-end mb-14">
+      <svg
+        width="106"
+        height="71"
+        viewBox="0 0 106 71"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M25.2 70.504C9.972 70.504 0.948 57.25 0.948 35.724C0.948 14.104 9.972 0.755999 25.2 0.755999C40.428 0.755999 49.452 14.104 49.452 35.724C49.452 57.25 40.428 70.504 25.2 70.504ZM25.2 57.344C30.746 57.344 33.942 50.67 33.942 35.724C33.942 20.684 30.746 13.916 25.2 13.916C19.654 13.916 16.458 20.684 16.458 35.724C16.458 50.67 19.654 57.344 25.2 57.344ZM81.1873 70.504C65.4893 70.504 58.0633 62.608 57.3113 50.2L72.5393 49.542C73.1033 55.37 76.8633 57.344 81.4693 57.344C86.6393 57.344 90.3053 54.618 90.3053 48.884C90.3053 43.244 86.9213 40.142 80.5293 40.142H75.5473V28.674H80.5293C85.2293 28.674 88.3313 26.418 88.3313 21.248C88.3313 16.172 85.4173 13.728 81.2813 13.728C76.2053 13.728 73.9493 16.454 73.4793 20.59L58.2513 19.932C59.4733 8.088 67.3693 0.755999 81.3753 0.755999C95.2873 0.755999 103.841 7.43 103.841 19.086C103.841 26.324 100.081 31.118 93.2193 33.374C101.303 35.63 105.815 41.646 105.815 50.106C105.815 62.702 96.6033 70.504 81.1873 70.504Z"
+          fill="url(#paint0_linear_1_3220)"
+          fill-opacity="0.5"></path>
+        <defs>
+          <linearGradient
+            id="paint0_linear_1_3220"
+            x1="202"
+            y1="-25"
+            x2="202"
+            y2="74.7604"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#CFD5DE"></stop>
+            <stop offset="1" stop-color="#CFD5DE" stop-opacity="0"></stop>
+          </linearGradient>
+        </defs>
+      </svg>
+
+      <h4 class="text-2xl my-4 font-semibold w-3/4">
+        Sync data directly to Google Sheets and Slides
+      </h4>
+      <p class="w-8/12">
+        Easily access and integrate your data into documents and presentations.
+      </p>
+    </div>
+  </div>
+  <img src={stepsbottom.src} alt="stepsbottom" class="object-contain" draggable="false" />
+</div>
+
+<style>
+  .stepbtn {
+    box-shadow: -1px -3px 2px 2px rgba(0, 0, 0, 0.1);
+    letter-spacing: 2px;
+  }
+</style>
